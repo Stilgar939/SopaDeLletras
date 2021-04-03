@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sopa de Letras</string>
+    <string-array name="keywords">
+        <item>pepe</item>
+        <item>leonardo</item>
+        <item>albert</item>
+        <item>david</item>
+        <item>adria</item>
+        <item>lucia</item>
+        <item>kilian</item>
+        <item>rita</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

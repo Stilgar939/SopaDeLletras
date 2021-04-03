@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main2" />
+
+
+    <ImageButton
+        android:id="@+id/botonJuega"
+        android:layout_width="176dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="150px"
+        android:background="@drawable/jugar" />
+
+    <ListView
+        android:id="@+id/puntuacion"
+        android:layout_width="346dp"
+        android:layout_height="358dp"
+        android:layout_alignBottom="@+id/botonJuega"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="350px"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/titulo"
+        android:layout_width="334dp"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/titulo"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/buttonHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/interrog"
+        android:layout_marginRight="15px"
+        android:layout_marginBottom="15px"/>
+
+</RelativeLayout>
